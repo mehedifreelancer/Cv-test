@@ -27,7 +27,11 @@
                             </div>
                         </div>
 
-
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
                         <div class="info text-center">
                             <br>
                             <br>
@@ -64,6 +68,10 @@
 
 
 
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <br>
                         <br>
                         <br>
@@ -404,7 +412,7 @@
 
         .left {
             background: #252525;
-            height: 1568px;
+            
         }
 
         .right {
@@ -543,4 +551,17 @@
         }
     </style>
 
-</body></html>
+    
+    <script>
+       var value = $(".right").innerHeight();
+       var height= value+"px";
+        
+        $(document).ready(function(){
+            $(".left").css({
+                'height':height
+            })
+        })
+    </script>
+</body>
+
+</html>
