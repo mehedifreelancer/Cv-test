@@ -17,6 +17,7 @@
             <div class="row">
                 <div class="col-xs-3 left">
                     <div class="pro-image">
+                        <div class="box"></div>
                         <div class="image-box">
                             <img src="images/o.jpg">
                         </div>
@@ -27,11 +28,11 @@
                             </div>
                         </div>
 
-                          <br>
-                          <br>
-                          <br>
-                          <br>
-                          <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <div class="info text-center">
                             <br>
                             <br>
@@ -77,6 +78,16 @@
                         <br>
                         <br>
                         <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <div class="Social text-center">
                             <h4>Available On</h4>
                             <div class="line"></div>
@@ -86,8 +97,8 @@
 
                             <a style="text-decoration: none;" href="https://twitter.com/_Md_Mehedi "><i class="fa fa-twitter"></i></a>
                         </div>
-                        
-                        
+
+
                         <div class="interests text-center">
                             <hr>
                             <h4>Hobbies and Interests</h4>
@@ -127,9 +138,9 @@
                             <h5 class="text-center">Front-end </h5>
                             <br>
                         </div>
-                        
 
-                         <div class="row">
+
+                        <div class="row">
                             <div class="col-xs-3 col-sm-3">
                                 <div class="inner-content text-center">
 
@@ -195,7 +206,7 @@
                             </div>
 
                         </div>
-                          
+
 
 
 
@@ -204,8 +215,8 @@
                             <h5 class="text-center">Back-end </h5>
                             <br>
                         </div>
-                        
-                       
+
+
                         <div class="row">
                             <div class="col-xs-3 col-sm-3">
                                 <div class="inner-content text-center">
@@ -274,7 +285,7 @@
                         </div>
 
                     </div>
-               
+
 
                     <div class="portfolio part">
                         <h4>Portfolio</h4>
@@ -354,7 +365,7 @@
 
                         </div>
                     </div>
-                 
+
                     <br>
                     <div class="projects">
                         <h4>Final Project</h4>
@@ -412,7 +423,8 @@
 
         .left {
             background: #252525;
-            
+            overflow: hidden;
+
         }
 
         .right {
@@ -528,10 +540,10 @@
         }
 
         .social span {
-           color: #252525;
+            color: #252525;
         }
-        
-      
+
+
 
         .social i {
             color: #307bbb;
@@ -544,23 +556,40 @@
             color: #307bbb;
 
         }
-        .interests i{
+
+        .interests i {
             color: #307bbb;
             font-size: 18px;
             margin: 5px;
         }
+
+        .right h4 {
+            text-transform: capitalize;
+        }
+
+        .box {
+            height: 95px;
+            width: 102%;
+            background: #307bbb;
+            background: rgba(48,123,187,.6);
+            margin-top: -50px;
+            position: absolute;
+            margin-left: -16px;
+        }
+
     </style>
 
-    
+
     <script>
-       var value = $(".right").innerHeight();
-       var height= value+"px";
-        
-        $(document).ready(function(){
+        var value = $(".right").innerHeight();
+        var height = value + "px";
+
+        $(document).ready(function() {
             $(".left").css({
-                'height':height
+                'height': height
             })
         })
+
     </script>
 </body>
 
